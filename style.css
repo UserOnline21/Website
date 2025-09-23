@@ -1,9 +1,16 @@
 p {
     color: #b64b23;
-    line-height: 1.2
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
 }
 h1 {
     color:#8b2e2e;
     text-align: center;
     text-decoration: underline;
+    font-weight: bolder;
+}
+
+a {
+    color: black;
 }
