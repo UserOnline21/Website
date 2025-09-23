@@ -1,6 +1,9 @@
 p {
-    color: #b64b23
+    color: #b64b23;
+    line-height: 1.2
 }
 h1 {
-    color:#8b2e2e
+    color:#8b2e2e;
+    text-align: center;
+    text-decoration: underline;
 }
