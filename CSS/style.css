@@ -13,6 +13,12 @@ h1 {
     font-family: "Press Start 2P"
 }
 
-a {
+a:link {
     color: black;
+}
+a:visited {
+    color:brown
+}
+a:hover {
+    text-decoration:solid
 }
