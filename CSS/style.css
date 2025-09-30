@@ -3,22 +3,22 @@ p {
     line-height: 1.2;
     letter-spacing: 0.1px;
     word-spacing: 0.1px;
-    font-family: Impact, Haettenschweiler, 
+    font-family: Impact, Haettenschweiler;
 }
 h1 {
-    color:#8b2e2e;
+    color: #8b2e2e;
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
-    font-family: "Press Start 2P"
+    font-family: "Press Start 2P";
 }
 
 a:link {
     color: black;
 }
 a:visited {
-    color:brown
+    color: brown;
 }
 a:hover {
-    text-decoration:solid
+    text-decoration: solid;
 }
