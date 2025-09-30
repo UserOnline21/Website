@@ -22,3 +22,21 @@ a:visited {
 a:hover {
     text-decoration: solid;
 }
+
+.banner {
+    background-color:firebrick;
+    border-style:double;
+    border-width: thick;
+    border-color: aliceblue;
+    border-radius: 10px;
+    width: 77%;
+    height: 39px;
+}
+
+h2 {
+    color:aliceblue;
+    font-family: "Press Start 2P";
+    font-weight:lighter;
+    line-height: 0;
+    text-align: center
+}
