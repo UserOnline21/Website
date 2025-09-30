@@ -58,4 +58,16 @@ h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.8);
 }
 
-
+.noitareview {
+    max-width: 800px;
+    margin-right: auto;
+}
+.evilwestreview {
+    max-width: 800px;
+}
+.abyssusreview {
+    max-width: 800px;
+}
+.reviewscores {
+    max-width: 800px;
+}
