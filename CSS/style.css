@@ -47,6 +47,19 @@ h2 {
     font-weight: lighter;
     line-height: 0;
     text-align: center;
+    font-size: 14px;
+    margin-top: 19px;
+}
+@media (min-width: 900px) {
+    h2 {
+        color: aliceblue;
+        font-family: "Press Start 2P";
+        font-weight: lighter;
+        font-size: 20px;
+        margin-top: 19px;
+        line-height: 0;
+        text-align: center;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -54,29 +67,7 @@ h2 {
         color: aliceblue;
         font-family: "Press Start 2P";
         font-weight: lighter;
-        font-size: 50px;
-        line-height: 0;
-        text-align: center;
-    }
-}
-
-@media (min-width: 830px) {
-    h2 {
-        color: aliceblue;
-        font-family: "Press Start 2P";
-        font-weight: lighter;
-        font-size: 20px;
-        line-height: 0;
-        text-align: center;
-    }
-}
-@media (min-width: 900px) {
-    h2 {
-        color: aliceblue;
-        font-family: "Press Start 2P";
-        font-weight: lighter;
-        font-size: 10px;
-        margin-top: 19px;
+        font-size: 25px;
         line-height: 0;
         text-align: center;
     }
