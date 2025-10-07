@@ -35,7 +35,7 @@ a:hover {
     border-width: thick;
     border-color: aliceblue;
     border-radius: 10px;
-    width: 30%;
+    max-width: 600px;
     height: 49px;
     padding: 1px;
     margin: 15px
@@ -46,7 +46,8 @@ h2 {
     font-family: "Press Start 2P";
     font-weight:lighter;
     line-height: 0;
-    text-align: center
+    text-align: center;
+    
 }
 
 .homelinks {
