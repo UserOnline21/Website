@@ -45,8 +45,41 @@ h2 {
     color: aliceblue;
     font-family: "Press Start 2P";
     font-weight: lighter;
+    font-size: 10px;
     line-height: 0;
     text-align: center;
+}
+
+@media (min-width: 1200px) {
+    h2 {
+        color: aliceblue;
+        font-family: "Press Start 2P";
+        font-weight: lighter;
+        line-height: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 830px) {
+    h2 {
+        color: aliceblue;
+        font-family: "Press Start 2P";
+        font-weight: lighter;
+        font-size: 20px;
+        line-height: 0;
+        text-align: center;
+    }
+}
+@media (min-width: 200px) {
+    h2 {
+        color: aliceblue;
+        font-family: "Press Start 2P";
+        font-weight: lighter;
+        font-size: 17px;
+        margin-top: 19px;
+        line-height: 0;
+        text-align: center;
+    }
 }
 
 .homelinks {
@@ -54,15 +87,53 @@ h2 {
     padding: 1px;
     margin: left;
     width: 100%;
-    max-width: 500px;
+    max-width: 100px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
+@media (min-width: 830px) {
+    .homelinks {
+        border-style: solid;
+        padding: 1px;
+        margin: left;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (min-width: 1200px) {
+    .homelinks {
+        border-style: solid;
+        padding: 1px;
+        margin: left;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+}
+
 .navlink {
     padding: 5px;
-    display: inline-block;
     margin: 1px;
+}
+@media (min-width: 830px) {
+    .navlink {
+        padding: 5px;
+        display: inline-block;
+        margin: 1px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navlink {
+        padding: 5px;
+        display: inline-block;
+        margin: 1px;
+    }
 }
 
 .noitareview {
