@@ -45,7 +45,6 @@ h2 {
     color: aliceblue;
     font-family: "Press Start 2P";
     font-weight: lighter;
-    font-size: 10px;
     line-height: 0;
     text-align: center;
 }
@@ -55,6 +54,7 @@ h2 {
         color: aliceblue;
         font-family: "Press Start 2P";
         font-weight: lighter;
+        font-size: 50px;
         line-height: 0;
         text-align: center;
     }
@@ -70,7 +70,7 @@ h2 {
         text-align: center;
     }
 }
-@media (min-width: 50px) {
+@media (min-width: 900px) {
     h2 {
         color: aliceblue;
         font-family: "Press Start 2P";
