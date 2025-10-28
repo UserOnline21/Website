@@ -29,6 +29,11 @@ a:hover {
     text-decoration: solid;
 }
 
+table {
+    border: double;
+    border-width: thick;
+}
+
 .banner {
     background-color: firebrick;
     border-style: double;
