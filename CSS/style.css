@@ -34,6 +34,11 @@ table {
     border-width: thick;
 }
 
+.imgwidth {
+    width: 60%;
+}
+
+
 .banner {
     background-color: firebrick;
     border-style: double;
